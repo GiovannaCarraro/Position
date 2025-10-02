@@ -6,22 +6,91 @@
     box-sizing: border-box;
 }
 
-.container01{
-    position: absolute;
-    top: 100px;
-    left: 50px;
-    width: 400px;
-    height: 400px;
-    background: rgb(255, 242, 125);
+body {
+  font-family: "Arial";
+  background-color: #ffffff;
+  padding: 80px;
 }
 
-.conatiner02{
-    position: absolute;
-    right: 100px;
-    top: 100px;
-    left: 500px;
-    width: 1200px;
-    height: 1200px;
-    background: rebeccapurple;
+main {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.container {
+  display: flex;
+  background-color: white;
+  box-shadow: 0 0 10px black;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
+image{
+   
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  max-width: 1000px;
+  display: block;
+}
+
+.container-frases {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-frases h1 {
+
+    text-align: right;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: red;
+}
+
+.container-frases h2{
+      text-align: right;
+     font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container-texto p{
+  color: #555;
+    font-size: 16px;
+    margin-bottom: 10px;}
+
+.cadastro p{
+    background-color: red;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.logo-sesi img{
+    bottom: 40px;
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.logo-senai img {
+    width: 150px;
+    height: auto;
+}
